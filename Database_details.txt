@@ -1,0 +1,15 @@
+Data base Schema:
+
+create table vehicle.vehicle_details(
+vehicle_name varchar,
+vehicle_model varchar,
+years varchar,
+colour varchar,
+price varchar,
+damage varchar
+);
+
+select  * from vehicle.vehicle_details
+insert into vehicle.vehicle_details values('activa','activa 3G','2006','red','15000','yes')
+
+
